@@ -10,18 +10,14 @@ function Card({ item }) {
     return (
         // Card start
         <div className={styles.card}>
-            <Link to={`/starship/${id}`} >
+            <Link className={styles.underline} to={`/starship/${id}`} >
                 <input type="image" className={styles.img} src={`./assets/${id}.jpeg`} loading="lazy" alt="Ship Image" style={{ width: "100%", height: "180px" }} />
                 <div className={styles.cardInfo}>
-                    <div className={styles.name}>
-                        <h4>{item.name}</h4>
-                    </div>
-                    <div className={styles.text}>
-                        <p>{item.model}</p>
-                    </div>
-                    <div className={styles.text}>
-                        <p>{item.hyperdrive_rating}</p>
-                    </div>
+                    
+                    <h1 className={styles.title}>{item.name}</h1>
+                    
+                    <p className={styles.property}><span className={styles.propertyName}>Model: </span>{item.model}</p>
+        <p className={styles.property}><span className={styles.propertyName}>Hyperdrive rating: </span>{item.hyperdrive_rating}</p>
                 </div>
             </Link>
         </div>
