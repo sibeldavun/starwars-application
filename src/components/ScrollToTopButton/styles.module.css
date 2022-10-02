@@ -1,0 +1,14 @@
+.scrollUp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    }
+
+   .scrollUp:hover {
+        color: black;
+        -webkit-box-shadow: 0 0 50px palevioletred;
+        box-shadow: 0 0 50px palevioletred;
+    }

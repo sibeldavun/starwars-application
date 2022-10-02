@@ -1,0 +1,21 @@
+.btnBox{
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.btn {
+    margin-right: 10px;
+    border-color: gray;
+    color: gray;
+    margin-left: 3px;
+    border-radius: 3px;
+    height: 30px; 
+    width: auto;
+}
+
+button:hover {
+    color: black;
+    -webkit-box-shadow: 0 0 50px palevioletred;
+    box-shadow: 0 0 50px palevioletred;
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media only screen and (min-width: 576px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+}

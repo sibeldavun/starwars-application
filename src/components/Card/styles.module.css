@@ -1,0 +1,47 @@
+.card {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 96% ;
+    margin: 1%;
+    padding: 1%;
+   
+  }
+
+  /* Responsive model for tablet */
+  @media only screen and (min-width: 576px) {
+    .card {
+        width: 46%;
+    }  
+  }
+
+  /* Responsive model for pc */
+  @media only screen and (min-width: 800px) {
+    .card {
+        width: 16%;
+    }  
+  }
+
+  .card:hover {
+    box-shadow: 0 0 40px palevioletred;
+    border-radius: 20px;
+  }
+  .img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .cardInfo {
+    padding: 2px 16px;
+    margin-top: 20px;
+  }
+
+  .cardInfo .name {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .cardInfo .text {
+    margin-top: 8px;
+  }

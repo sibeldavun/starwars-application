@@ -1,0 +1,64 @@
+.starshipdetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* responsive model for general */
+.card {
+    padding: 1%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 30px white;
+    box-shadow: 0 0 30px white;
+    transition: 0.3s;
+    text-align: center;
+    font-family: arial;
+    background-color: whitesmoke;
+    margin-top: 30%;
+    width: 80%;
+}
+ /* responsive model for tablet */
+ @media only screen and (min-width: 576px) {
+    .card {
+        width: 56%;
+    }
+}
+
+ /* responsive model for pc */
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 40%;
+        margin-top: 100px;  
+    }
+} 
+
+/* responsive model for large pc */
+@media only screen and (min-width: 960px) {
+    .card {
+        width: 25%;
+        margin-top: 100px;  
+    }
+} 
+
+.card:hover {
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 50px palevioletred;
+    box-shadow: 0 0 50px palevioletred;
+}
+
+.title {
+    color: gray;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    text-underline-offset: 0.5rem;
+}
+
+.propertyName {
+    font-weight: bold;
+    color: gray;
+}
+
+.property {
+    color: gray;
+    margin-top: 8px;
+}
