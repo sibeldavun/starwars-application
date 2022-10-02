@@ -16,7 +16,7 @@ function App() {
 
       {/* route structure created for the page */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/starship/:id" element={<StarshipDetails />} />
         <Route path='/starships' element={<Starships />} />
         <Route path='/*' element={<NotFound />} />
