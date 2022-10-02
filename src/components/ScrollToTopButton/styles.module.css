@@ -5,10 +5,11 @@
     height: 30px;
     width: 30px;
     font-size: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px red;
     }
 
    .scrollUp:hover {
         color: black;
-        -webkit-box-shadow: 0 0 50px palevioletred;
-        box-shadow: 0 0 50px palevioletred;
+        box-shadow: 0 0 30px blue;
     }

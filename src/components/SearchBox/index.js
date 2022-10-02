@@ -28,11 +28,11 @@ function SearchBox() {
             <div className={styles.right}>
                 <form onSubmit={onSubmit}>
                     <input value={searchText} placeholder='Search' onChange={changeText} />
-                    <button>Search</button>
+                    <button className={styles.btn}>Search</button>
                 </form>
             </div>
         </React.Fragment>
-        // Search Box start
+        // Search Box end
     )
 }
 export default React.memo(SearchBox);

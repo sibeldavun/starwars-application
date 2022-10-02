@@ -7,8 +7,7 @@
 .card {
     padding: 1%;
     border-radius: 5px;
-    -webkit-box-shadow: 0 0 30px white;
-    box-shadow: 0 0 30px white;
+    box-shadow: 0 0 30px red;
     transition: 0.3s;
     text-align: center;
     font-family: arial;
@@ -41,8 +40,7 @@
 
 .card:hover {
     border-radius: 20px;
-    -webkit-box-shadow: 0 0 50px palevioletred;
-    box-shadow: 0 0 50px palevioletred;
+    box-shadow: 0 0 30px blue;
 }
 
 .title {

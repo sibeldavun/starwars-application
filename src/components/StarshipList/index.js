@@ -26,6 +26,8 @@ function StarshipList() {
                 }
                 return allGroups.length + 1;
             },
+            staleTime:0,
+            cacheTime:0
         });
 
     if (status === "loading") return <Loading />
