@@ -1,7 +1,7 @@
 # Starwars Application
 
 ## Live Address for Application
-- https://main--tranquil-basbousa-2ef5c6.netlify.app/
+- https://starwars-application.netlify.app/
 
 ## Running 
 - run `npm install` in terminal     => For loading node_modules
