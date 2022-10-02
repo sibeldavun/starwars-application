@@ -11,7 +11,7 @@ function Home() {
     // Home start
     <div className={styles.container}>
       <div className={styles.card}>
-        <img src={`../home.jpeg`} alt="Ship Image" loading="lazy" style={{ width: "100%", height: "300px" }} />
+        <input type="image" src={`../home.jpeg`} alt="Ship Image" loading="lazy" style={{ width: "100%", height: "300px" }} />
       </div>
       <div className={styles.titleCard}>
         <h1 className={styles.title}>MAY THE</h1>

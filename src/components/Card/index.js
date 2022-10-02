@@ -11,7 +11,7 @@ function Card({ item }) {
         // Card start
         <div className={styles.card}>
             <Link to={`/starship/${id}`} >
-                <img className={styles.img} src={`./assets/${id}.jpeg`} loading="lazy" alt="Ship Image" style={{ width: "100%", height: "180px" }} />
+                <input type="image" className={styles.img} src={`./assets/${id}.jpeg`} loading="lazy" alt="Ship Image" style={{ width: "100%", height: "180px" }} />
                 <div className={styles.cardInfo}>
                     <div className={styles.name}>
                         <h4>{item.name}</h4>

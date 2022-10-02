@@ -25,7 +25,7 @@ function StarshipDetails() {
     <div className={styles.starshipdetails}>
       <div className={styles.card}>
         <h1 className={styles.title}>{data.name}</h1>
-        <img src={`../assets/${id}.jpeg`} alt="Ship Image" loading="lazy" style={{ width: "100%", height: "300px" }} />
+        <input type="image" src={`../assets/${id}.jpeg`} alt="Ship Image" loading="lazy" style={{ width: "100%", height: "300px" }} />
         <p className={styles.property}><span className={styles.propertyName}>Model: </span>{data.model}</p>
         <p className={styles.property}><span className={styles.propertyName}>Hyperdrive rating: </span>{data.hyperdrive_rating}</p>
         <p className={styles.property}><span className={styles.propertyName}>Passengers: </span>{data.passengers}</p>

@@ -12,7 +12,7 @@ import Loading from '../../pages/Loading';
 function StarshipList() {
     // Get data, store in localstorage and load more with infinityQuery
     const location = useLocation();
-    const { data, error, fetchNextPage, hasNextPage, isFetching, isFetchingNextPage, status } =
+    const { data, fetchNextPage, hasNextPage, isFetchingNextPage, status } =
 
         useInfiniteQuery(['starships', location.search],
 
